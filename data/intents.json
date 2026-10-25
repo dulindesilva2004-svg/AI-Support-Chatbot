@@ -1,0 +1,11 @@
+{
+  "intents": [
+    {"tag": "greeting", "keywords": ["hi", "hello", "hey", "good morning"], "response": "Hi! I'm the support assistant. How can I help you today?"},
+    {"tag": "order_tracking", "keywords": ["track", "where is my order", "order status", "tracking"], "response": "You can track your order under My Account > Orders, or give me your order number and I'll check it."},
+    {"tag": "returns", "keywords": ["return", "refund", "exchange", "send back"], "response": "You can return items within 30 days. Start a return from My Account > Orders > Return item."},
+    {"tag": "delivery", "keywords": ["delivery", "shipping", "how long", "arrive"], "response": "Standard delivery takes 3-5 business days. Express delivery takes 1-2 business days."},
+    {"tag": "account", "keywords": ["password", "login", "account", "sign in"], "response": "You can reset your password using 'Forgot password' on the sign-in page."},
+    {"tag": "human_agent", "keywords": ["human", "agent", "real person", "speak to someone"], "response": "No problem, I'm connecting you to a support agent now."}
+  ],
+  "fallback": "Sorry, I didn't quite get that. Would you like me to connect you with a support agent?"
+}
